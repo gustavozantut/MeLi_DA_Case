@@ -11,4 +11,4 @@ services:
     ports:
       - "1222:8888"
     volumes:
-      - ./notebooks:/home/${NB_USER}/work  # Mount app directory, not venv
+      - ./:/home/${NB_USER}/work  # Mount app directory, not venv
