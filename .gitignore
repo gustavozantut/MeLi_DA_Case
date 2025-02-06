@@ -1,0 +1,30 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+*.env
+
+# Ignore Jupyter Notebook output files
+*.nbconvert.ipynb
+
+# Ignore data files
+*.csv
+*.tsv
+*.dat
+*.data
+*.log
+
+# Ignore other common files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
