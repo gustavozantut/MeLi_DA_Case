@@ -31,3 +31,5 @@ Thumbs.db
 
 # ignore data folder
 data/
+
+notebooks/data_analysis_figures.ipynb
