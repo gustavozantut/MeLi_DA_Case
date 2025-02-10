@@ -1,0 +1,14 @@
+
+services:
+  jupyter:
+    image: guhzantut/datascience-notebook:meli
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+      args:
+        - JUPYTER_TOKEN=${JUPYTER_TOKEN}
+        - NB_USER=${NB_USER}
+    ports:
+      - "1222:8888"
+    volumes:
+      - ./:/home/${NB_USER}/work  # Mount app directory, not venv
