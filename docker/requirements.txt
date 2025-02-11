@@ -1,5 +1,6 @@
 unidecode
 pandas
+pyarrow
 scikit-learn
 matplotlib
 seaborn
