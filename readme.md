@@ -33,8 +33,8 @@ Start the Jupyter Notebook using Docker.
 
 Open the appropriate notebook depending on whether you want to run the full analysis or just review the commented insights.
 
-##Notes
+## Notes:
 
-#The full processing notebook may require significant computational power.
+# The full processing notebook may require significant computational power(_figures.ipynb).
 
-#Ensure you have the required dependencies installed if running outside of Docker.
+# Ensure you have the required dependencies installed if running outside of Docker.
