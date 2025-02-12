@@ -1,10 +1,15 @@
 # Meli Data Analytics Case
 
 ## Getting Started
+### Docker
 
-To run the project, use the following command:
+To run the project, clone it, cd into the repo and use the following command:
 
 ``docker compose up``
+
+### Jupyter Notebook
+
+Clone the repo at a jupyter notebook environment.
 
 ## Prerequisites
 
@@ -23,9 +28,9 @@ The project contains the following components:
 
 ### Data Analysis Notebooks:
 
-#### Commented Version: Contains all analysis with charts, but without executing heavy computations.
+Commented Version: Contains all analysis with charts, but without executing heavy computations.
 
-#### Full Processing Version: Runs all computations and generates charts (may be resource-intensive).
+Full Processing Version: Runs all computations and generates charts (may be resource-intensive).
 
 ## Usage
 
@@ -35,6 +40,6 @@ Open the appropriate notebook depending on whether you want to run the full anal
 
 ## Notes:
 
-#### The full processing notebook may require significant computational power(_figures.ipynb).
+The full processing notebook may require significant computational power(_figures.ipynb).
 
-#### Ensure you have the required dependencies installed if running outside of Docker.
+Ensure you have the required dependencies installed if running outside of Docker.
