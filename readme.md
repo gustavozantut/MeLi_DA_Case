@@ -10,8 +10,9 @@ To run the project, use the following command:
 
 For Docker to work properly, you need to create a .env file in the root folder with the following environment variables:
 
-``JUPYTER_TOKEN=<your_token>
-NB_USER=<your_user>``
+``JUPYTER_TOKEN=<your_token> ``
+
+``NB_USER=<your_user>``
 
 ## Project Structure
 
